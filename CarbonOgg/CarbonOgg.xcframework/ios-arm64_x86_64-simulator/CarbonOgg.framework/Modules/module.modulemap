@@ -1,0 +1,5 @@
+framework module CarbonOgg {
+    umbrella header "ogg.h"
+    export *
+    module * { export * }
+}

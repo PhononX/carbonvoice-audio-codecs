@@ -1,0 +1,6 @@
+framework module CarbonOpus {
+    umbrella header "opus.h"
+
+    export *
+    module * { export * }
+}

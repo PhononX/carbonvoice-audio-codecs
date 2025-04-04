@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CarbonOgg'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = 'Ogg audio codec wrapper'
   s.description      = 'XCFramework wrapper for libogg.'
   s.homepage         = 'https://github.com/PhononX/carbonvoice-audio-codecs'

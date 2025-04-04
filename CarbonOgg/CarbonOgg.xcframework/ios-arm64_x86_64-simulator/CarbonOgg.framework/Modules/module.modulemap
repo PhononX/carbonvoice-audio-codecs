@@ -1,5 +1,5 @@
 framework module CarbonOgg {
-    umbrella header "ogg.h"
+    umbrella header "ogg/ogg.h"
     export *
     module * { export * }
 }

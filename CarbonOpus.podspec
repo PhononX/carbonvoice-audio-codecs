@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CarbonOpus'
-  s.version          = '0.0.8'
+  s.version          = '0.0.9'
   s.summary          = 'Opus audio codec wrapper'
   s.description      = 'XCFramework wrapper for libopus.'
   s.homepage         = 'https://github.com/PhononX/carbonvoice-audio-codecs'
@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'CarbonOpus/CarbonOpus.xcframework'
   s.module_name = 'CarbonOpus'
   s.requires_arc = false
+  s.static_framework = true
 end

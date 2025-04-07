@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CarbonOgg'
-  s.version          = '0.0.8'
+  s.version          = '0.0.9'
   s.summary          = 'Ogg audio codec wrapper'
   s.description      = 'XCFramework wrapper for libogg.'
   s.homepage         = 'https://github.com/PhononX/carbonvoice-audio-codecs'
@@ -15,4 +15,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'CarbonOgg/CarbonOgg.xcframework'
   s.module_name = 'CarbonOgg'
   s.requires_arc = false
+  s.static_framework = true
+
 end
